@@ -24,7 +24,7 @@ public class Postgres {
                 var cgpa = rs.getDouble("cgpa");
                 var s2 = Double.toString(cgpa);
                 var name = rs.getString("name");
-               list.add(s +"," +s1 +"," +s2 +","+active+","+name);
+                list.add(s + "," + s1 + "," + s2 + "," + active + "," + name);
                 System.out.println(s);
                 System.out.println(name);
                 System.out.println(s1);
